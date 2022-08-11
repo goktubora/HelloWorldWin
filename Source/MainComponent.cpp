@@ -18,7 +18,7 @@ void MainComponent::paint (juce::Graphics& g)
 
     g.setFont (juce::Font (48.0f));
     g.setColour (juce::Colours::red);
-    g.drawText ("ALH Reverb Ulan!", getLocalBounds(), juce::Justification::centred, true);
+    g.drawText ("ALH Reverb Ulan!\nSevda-cicegi", getLocalBounds(), juce::Justification::centred, true);
 }
 
 void MainComponent::resized()
